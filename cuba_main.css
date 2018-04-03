@@ -1,0 +1,138 @@
+.welcome{width: 100%;display: flex;flex-direction: column; align-items: center;margin-top: 3.125rem;}
+.line_red{ width: 2%;height:0.0625rem;background-color: red;}
+.line_gray{width: 6%;height: 0.125rem;background-color: gray;margin-top: 1.25rem; }
+.welcome_pic{width: 80%;height: 46.875rem; background-image: url(view.jpg); position: relative;}
+.ex_middle_pic{position: absolute;left: 45%;bottom: 10%;}
+.ex_middle_pic a {text-decoration: none; font-size: 2.1875rem;color: rgb(255, 255, 255);}
+.line_gray_bottom {width: 100%;height: 0.0625rem;background-color: grey;margin-top:4.375rem;}
+.line_gray_bot{width: 70%;height: 0.0625rem;background-color: grey;margin-top:1.2rem;}
+.exp{width:100%;display: flex; flex-direction: column; align-items:center;}
+.exppic{width: 100%; margin-top: 1.875rem; display: flex;justify-content: space-around;}
+.historic{width: 15% ;height: 25rem;background-image: url(historic.jpg);position: relative;transition: transform 1s;}
+.historic:hover{transform: translateY(1.5rem);}
+.archit{width: 15%;height: 25rem;background-image: url(archit.jpg);position: relative;transition: transform 1s;}
+.archit:hover{transform: translateY(1.5rem);}
+.beach{width:15%;height: 25rem;background-image: url(beach.jpg);position: relative;transition: transform 1s;}
+.beach:hover{transform: translateY(1.5rem);}
+.bird{width: 15%;height: 25rem;background-image: url(bird.jpg);position: relative;transition: transform 1s;}
+.bird:hover{transform: translateY(1.5rem);}
+.num{position: absolute;top: 45%;left: 35%;}
+.explain{position: absolute;top: 65%;left: 30%;}
+.explain h5{font-style:italic;color: white;}
+.explain a{text-decoration: none;color: white;}
+
+.sights_pic{width: 50%; display: flex;flex-wrap: wrap;counter-reset: count;}
+.sights_pic a {display: flex; margin-left: 30%;color: rgb(59, 68, 79)
+; text-decoration: none;}
+
+.pic {display: flex;flex-wrap: wrap;width: 35%;border-bottom: 0.125rem solid lightgrey;}
+.pic a h3:hover {color: blue;}
+.pic img{width:5rem;height:3.75rem;}
+
+.pic .pic-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.pic .pic-container:after{
+	content: counter(count);
+    counter-increment: count;
+	padding: 1rem;
+	background-color: #fff;
+	transform: translateX(-1.2rem);
+	clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+file:///C:/Yehuda/cur/CubaL627.11.17/imgs/classic_articles2.jpg
+.map_sec{width: 100%;height: 56.25rem;background-image: url(imgs/maps.jpeg); position: relative;}
+.map_bu{position: absolute;left: 40%;top: 90%;}
+
+.survival{width: 100%;display: flex;flex-direction: column;align-items: center; }
+.sur_pic{width: 100%;margin-top:1.875rem; display: flex;justify-content: space-around;}
+.visas{transition: transform 1s;}
+.visas:hover{transform: translateY(1.5rem);}
+.best_time{transition: transform 1s;}
+.best_time:hover{transform: translateY(1.5rem);}
+.money{transition: transform 1s;}
+.money:hover{transform: translateY(1.5rem);}
+.health{transition: transform 1s;}
+.health:hover{transform: translateY(1.5rem);}
+.pic_e a{text-decoration: none; color: black;}
+.pic_e a:hover {color:blue;}
+.see{width: 100%;display: flex;justify-content: center;margin-top:2.5rem; }
+.see a{text-decoration: none;color: rgb(41, 124, 187);}
+
+.articles{width: 100%;display: flex;flex-direction: column;align-items: center;margin-top: 6.25rem;}
+.re_articles{width: 50%;margin-left: 15.625rem;margin-top:2.5rem; display: flex;flex-direction: column;align-items: center;}
+.re_articles a {text-decoration: none;color: black;}
+.re_pic{display: flex; margin-bottom: 0.625rem;border-bottom:0.125rem solid lightgrey;}
+.read_mo{margin-left: 15.625rem;}
+.read_mo a {text-decoration: none;color: blue;}
+.read_mo :hover {color:lightblue;}
+
+.dis_line{width: 70%; height:0.125rem ;background-color:lightgrey; margin-top: 20rem;margin-bottom: 6rem;margin-left:18rem;}
+.discover{width: 100%; display: flex; flex-direction: column;align-items: center;}
+
+.disc_pic{display: flex; margin-top: 5rem;margin-left:20rem; }
+.second{display: flex;}
+.disc_pic_third{display: flex;}
+.disc_pic a{text-decoration: none;color: white; position: absolute;top: 8rem;left: 2rem;border-top: 0.0625rem solid white;}
+.Architecture{width:25.625rem ;height:25.625rem;  background-image: url(imgs/discarchit.jpg);position: relative;transition: transform 1s;}
+.Architecture:hover{transform: translateY(1.5rem);}
+.night{width: 11.875rem;height: 11.875rem;background-image: url(imgs/discnight.jpg);position: relative;transition: transform 1s;}
+.night:hover{transform: translateY(1.5rem);}
+.Ruins{width: 11.875rem;height: 11.875rem;background-image: url(imgs/discruins.jpg);position: relative;transition: transform 1s;}
+.Ruins:hover{transform: translateY(1.5rem);}
+.Under{width: 11.875rem;height: 11.875rem;background-image: url(imgs/discradar.jpg);position: relative;transition: transform 1s;}
+.Under:hover{transform: translateY(1.5rem);}
+.Wildlife{width: 11.875rem;height: 11.875rem;background-color:#67747c ; position: relative;transition: transform 1s;}
+.Wildlife:hover{transform: translateY(1.5rem);}
+.Diving{width: 11.875rem;height: 11.875rem;background-color:#67747c ; position: relative;transition: transform 1s;}
+.Diving:hover{transform: translateY(1.5rem);}
+.Relaxing{width: 11.875rem;height: 11.875rem;background-image: url(imgs/discrelax.jpg);position: relative;transition: transform 1s;}
+.Relaxing:hover{transform: translateY(1.5rem);}
+.White_sand{width: 11.875rem;height: 11.875rem;background-image: url(imgs/discsand.jpg);position: relative;transition: transform 1s;}
+.White_sand:hover{transform: translateY(1.5rem);}
+.Revolutionary{width: 11.875rem;height: 11.875rem;background-image: url(imgs/dischistory.jpg);position: relative;transition: transform 1s;}
+.Revolutionary:hover{transform: translateY(1.5rem);}
+
+.guides_line{width: 70%;height: 0.15rem;background-color: lightgrey;margin-top: 10rem;margin-bottom: 10rem;margin-left: 18rem;}
+.guides{width: 100%; display: flex;flex-wrap: wrap;margin-top: 3rem;justify-content: center;}
+.guid_pic{transition: transform:1s;}
+.guid_pic:hover{transform: translateY(2rem);}
+.guid_ex{margin-left: 10rem;margin-top: 30rem;}
+.guid_botton{border-radius: 2.2rem;display: inline-block;font-size: 1.2rem;padding: 1.8rem 3rem 1.4rem;background-color: #297cbb;}
+.guid_botton a{text-decoration: none;color: white;}
+
+.activ-head{width: 100%;display: flex;flex-direction: column;align-items: center;}
+.activ_pic_con{width: 90%;margin-top: 2rem;margin-left: 9rem; display: flex;}
+.activ_pic{width: 80%; display: flex;}
+.activ_pic figure img{height: 10rem;width: 19rem;}
+.activ_ex a {text-decoration: none;}
+.activ_ex a h4{color: rgb(59, 68, 79);}
+.activ_ex a p{color:rgb(137, 142, 149);}
+
+.see_m{width: 80%;height: 6rem; display: flex; justify-content: center;border-bottom: 0.13rem solid lightgrey;margin-left: 10rem;}
+.see_m a {text-decoration: none;color: rgb(41, 124, 187);}
+.see_m :hover {color:lightblue;}
+
+.ph_cred{width: 80%;height: 5rem;display: flex;align-items: center; justify-content: flex-end;border-bottom: 0.13rem solid lightgrey;margin-left: 10rem;}
+.ph_cred a{text-decoration: none;color: #959aa0;}
+.ph_cred :hover{color: #297cbb;}
+
+.end{width: 80%; display: flex;border-bottom: 0.13rem solid #e4e4e4;margin-left: 10rem;}
+.end_sub{list-style-type: none;margin: 0;padding: 0;}
+.end_sub a {text-decoration: none;}
+.end_sub li{list-style-type: none;margin: 0;padding: 0;}
+.end_sub ul li a{color: #959aa0;}
+.end_sub ul li a:hover{color: #297cbb;}
+.end_sub a h4{color:#3b444f;}
+.end_sub a h4:hover{color: #297cbb;}
+.end_mail{display: flex;}
+.end_mail a {text-decoration: none;color: #3b444f;}
+.end_mail a:hover{color:#297cbb;}
+.end_links{width: 80%; display: flex;margin-left: 10rem;}
+.end_links a{text-decoration: none;color: #959aa0;}
+.end_links a:hover{color:#297cbb;}
+.end_links p{color: #bfc2c6;}
+.end_social{margin-left: 29.5rem;}
+

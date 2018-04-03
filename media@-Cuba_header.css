@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1930px)
+{
+	.hum span {display: none;}
+}
+
+@media only screen and (max-width:1199px)
+{
+	.hum span {display: none;}
+}
+
+@media only screen and (max-width:720px)
+{
+	.hum span{display: block;}
+	.navigation_top nav{display: none;}
+	.navigation_top img{width: 5rem;height:3;}
+	.Search_Cuba{display: none;}
+
+}
+

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1930px)
+{}
+
+@media only screen and (max-width:1199px)
+{}
+
+@media only screen and (max-width:720px)
+{
+	.exppic{ display: flex;flex-direction: column;}
+	.sights_pic{display: flex;flex-direction: column;}
+	.map_sec{display: none;}
+	.guides{width: 50%;display: flex;flex-direction: column;}
+	
+}
